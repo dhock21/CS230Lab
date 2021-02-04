@@ -1,0 +1,30 @@
+main{
+    font-family: 'Helvetica';
+    text-align: center;
+}
+
+p{
+    color: darkred;
+}
+
+.about{
+    background: dimgrey;
+    padding: 8px;
+}
+
+img{
+    height: 180px;
+    width: 200px;
+}
+
+.column{
+    float: left;
+    margin-right: 16px;
+    margin: 10px;
+    width: 20%;
+}
+
+.card{
+    box-shadow: 0px 4px 8px 0 #b3b3b3f5;
+    padding: 0 16px 0 16px;
+}
