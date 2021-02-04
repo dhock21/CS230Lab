@@ -3,7 +3,10 @@
 
     <div class="about">
         <h1>About Us</h1>
-        <p>gobblety goop</p>
+        <p1>I am the product of a team dedicated to selling quality, hand-made artisanal goods.
+            An eclectic group, hailing from varied backgrounds, they each have a specific set of skills.
+            Our prices are fair, and, full disclosure, you do not want to cross these modern-day makers.
+        </p1>
     </div>
     <div class="row">
         <div class="column">

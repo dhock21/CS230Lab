@@ -1,5 +1,5 @@
 main{
-    font-family: 'Helvetica';
+    font-family: 'Trebuchet MS';
     text-align: center;
 }
 
@@ -7,9 +7,14 @@ p{
     color: darkred;
 }
 
+p1{
+    color: goldenrod;
+}
+
 .about{
     background: dimgrey;
     padding: 8px;
+    color: goldenrod;
 }
 
 img{
