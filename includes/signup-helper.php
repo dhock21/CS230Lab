@@ -6,9 +6,9 @@ if(isset($_POST['signup-submit'])){
 
     $username = $_POST['uname'];
     $email = $_POST['email'];
+    $passw = $_POST['pwd'];
     $fname = $_POST['fname'];
     $lname = $_POST['lname'];
-    $passw = $_POST['pwd'];
     $passwrep = $_POST['conpwd'];
 
     if($passw !== $passwrep){

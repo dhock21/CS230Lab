@@ -52,7 +52,7 @@ require 'includes/header.php';
                     </div>
 
                     <div class="form-group">
-                        <button type="submit" class="form-control" name="signup-submit"
+                        <button type="submit" class="form-control" name="login-submit"
                             class="btn btn-outline-success btn-lg btn-block btn-">Login</button>
                     </div>
                 </form>
