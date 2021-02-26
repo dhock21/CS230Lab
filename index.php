@@ -1,9 +1,12 @@
-<main>
+<?php
+require 'includes/header.php';
+?>
+<body>
     <link rel="stylesheet" href="css/about.css">
 
     <div class="about">
         <h1>About Us</h1>
-        <p1>I am the product of a team dedicated to selling quality, hand-made artisanal goods.
+        <p1>This website is the product of a team dedicated to selling quality, hand-made artisanal goods.
             An eclectic group, hailing from varied backgrounds, they each have a specific set of skills.
             Our prices are fair, and, full disclosure, you do not want to cross these modern-day makers... quite the specific set of skills.
         </p1>
@@ -50,4 +53,4 @@
             </div>
         </div>
     </div>
-</main>
+</body>
