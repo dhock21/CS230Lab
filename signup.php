@@ -25,7 +25,7 @@ require "includes/header.php"
                         <input type="text" class="form-control" name="uname" placeholder="Username" required autofocus>
 
                         <label for="inputEmail" class="sr-only">Email address</label>
-                        <input type="email" id="inputEmail" class="form-control" name="email" placeholder="Email address" required
+                        <input type="email" id="inputEmail" class="form-control" name="email" placeholder="Email Address" required
                             autofocus>
 
                         <label for="inputPassword" class="sr-only">Password</label>
