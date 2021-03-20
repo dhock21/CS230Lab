@@ -1,0 +1,11 @@
+h1{
+        text-align: center;
+        color: silver;
+}
+
+img {
+    max-width: 220px;
+    height: 220px;
+    margin-top: 10px;
+    border-radius: 20px;
+}

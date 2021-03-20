@@ -49,7 +49,7 @@ if(isset($_SESSION['uid'])){
                     </div>
                     <div class="form-group">
                         <button type="submit" name="prof-submit"
-                            class="btn btn-outline-primary btn-lg btn-block">Upload</button>
+                            class="btn btn-secondary btn-lg btn-block">Upload</button>
                     </div>
                 </form>
             </div>

@@ -6,6 +6,10 @@ require 'includes/dbhandler.php';
 <main>
     <div class="bg-cover">
         <link rel="stylesheet" href="css/profile.css">
+        
+        
+        <h1 class="text-center">Admin</h1>
+        
         <script>
         function triggered() {
             document.querySelector("#gallery-image").click();

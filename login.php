@@ -53,7 +53,7 @@ require 'includes/header.php';
 
                     <div class="form-group">
                         <button type="submit" class="form-control" name="login-submit"
-                            class="btn btn-outline-success btn-lg btn-block btn-">Login</button>
+                            class="btn btn-outline-success btn-lg btn-block">Login</button>
                     </div>
                 </form>
 
