@@ -40,9 +40,9 @@ CREATE TABLE `gallery` (
 --
 
 INSERT INTO `gallery` (`pid`, `title`, `descript`, `picpath`, `upload_date`, `rating`) VALUES
-(5, 'adfadsf', 'adsfadsfdasf', '../gallery/60454db44af2e7.67915502.png', '2021-03-07 17:03:32', NULL),
-(6, '2', 'asdfads', '../gallery/60454dbfa6d1c6.73886897.jpg', '2021-03-07 17:03:43', NULL),
-(7, '3', 'sdfasdf', '../gallery/60454dc8813704.13891527.jpg', '2021-03-07 17:03:52', NULL);
+(2, 'test0', 'test0 desc', '../gallery/6049a28b215ff3.32250295.jpg', '2021-03-10 23:54:35', NULL),
+(3, 'test1', 'test1 desc', '../gallery/6049a2d2d582b0.82373169.jpg', '2021-03-10 23:55:46', NULL),
+(4, 'test2', 'test2 desc', '../gallery/6049a2e58f2245.06105441.jpg', '2021-03-10 23:56:05', NULL);
 
 -- --------------------------------------------------------
 
@@ -62,7 +62,7 @@ CREATE TABLE `profiles` (
 --
 
 INSERT INTO `profiles` (`pid`, `fname`, `uname`, `profpic`) VALUES
-(1, 'alkdsjf', '123', '../profiles/6054ebaf6a7105.74660954.jpg');
+(1, 'Jerry', 'test4', '../profiles/6039764f1c52f1.87654152.jpg');
 
 -- --------------------------------------------------------
 
@@ -86,13 +86,12 @@ CREATE TABLE `reviews` (
 --
 
 INSERT INTO `reviews` (`revid`, `itemid`, `uname`, `title`, `reviewtext`, `revdate`, `ratingnum`, `status`) VALUES
-(1, 7, '123', 'sgsdfg', 'sdfgsdfg', '2021-03-15 00:44:25', 3, 1),
-(2, 7, '123', 'ljkZNLDKnLKSDZF', 'sdfgdfsgdfsg', '2021-03-15 00:48:43', 5, 1),
-(3, 7, '123', 'lskdfjglkadflkjklo', 'asdolfijasodlfjolkdsaj', '2021-03-15 00:48:50', 1, 1),
-(4, 7, '123', 'dszafzdsf', 'vzxdcvzxcv', '2021-03-15 01:27:17', 1, 1),
-(5, 7, '123', 'zxdvzdsxvdsae', 'asdfsadf', '2021-03-15 01:27:21', 1, 1),
-(6, 7, '123', 'asdfasdf', 'asdsfasdf', '2021-03-15 01:27:26', 5, 1),
-(7, 7, '123', 'asdfasdf', 'adsfasdf', '2021-03-15 01:27:35', 5, 1);
+(7, 3, 'test4', 'test2', 'test2', '2021-03-20 00:43:38', 2, 1),
+(8, 3, 'test4', 'test3', 'test3', '2021-03-20 00:46:04', 2, 1),
+(9, 3, 'test4', 'test4', 'test4rev', '2021-03-20 00:46:54', 4, 1),
+(10, 3, 'test4', 'test5', 'test5rev', '2021-03-20 00:47:01', 5, 1),
+(11, 3, 'test4', 'test6', 'test6rev', '2021-03-20 01:07:26', 5, 1),
+(12, 3, 'test4', 'test6', 'test6rev', '2021-03-20 01:29:05', 5, 1);
 
 -- --------------------------------------------------------
 
@@ -114,7 +113,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`uid`, `fname`, `lname`, `uname`, `password`, `email`) VALUES
-(1, 'alkdsjf', 'adfads', '123', '$2y$10$7zT3sqlxJvMRORUrlJMBq.amCLD259lEMUZXJopF7eon.bodDLZuu', '123@1.com');
+(1, 'Myname', 'Jeff', 'test3', '$2y$10$fm6Fu64sfFVPW6PnbU4t.ueKBAKO.LyeJLoZAYw6yVn.s7Aq6.RYO', 'test3@email.com'),
+(2, 'Jerry', 'Smith', 'test4', '$2y$10$Vl72L4LuOVtigU8wvhzj/.Rzq6nvG8w5Ltrmnb6SB39O.2Y22KKe2', 'test4@email.com');
 
 --
 -- Indexes for dumped tables
