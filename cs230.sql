@@ -8,7 +8,7 @@
 -- PHP Version: 8.0.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-/*START TRANSACTION*/;
+START TRANSACTION;
 SET time_zone = "+00:00";
 
 
@@ -32,7 +32,7 @@ CREATE TABLE `gallery` (
   `title` varchar(60) NOT NULL,
   `descript` text NOT NULL,
   `picpath` varchar(80) NOT NULL,
-  `upload_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `upload_date` timestamp NOT NULL DEFAULT current_timestamp(),
   `rating` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf16;
 
@@ -172,7 +172,7 @@ ALTER TABLE `reviews`
 --
 ALTER TABLE `users`
   MODIFY `uid` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
-/*COMMIT*/;
+COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
