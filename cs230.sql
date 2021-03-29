@@ -8,7 +8,7 @@
 -- PHP Version: 8.0.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-/*START TRANSACTION*/;
+START TRANSACTION;
 SET time_zone = "+00:00";
 
 
@@ -32,7 +32,7 @@ CREATE TABLE `gallery` (
   `title` varchar(60) NOT NULL,
   `descript` text NOT NULL,
   `picpath` varchar(80) NOT NULL,
-  `upload_date` timestamp NOT NULL DEFAULT current_timestamp(),
+  `upload_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `rating` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf16;
 
