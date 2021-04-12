@@ -5,10 +5,17 @@ main{
 
 p{
     color: darkred;
+    text-align: center;
 }
 
-p1{
-    color: goldenrod;
+h1{
+    color: darkred;
+    text-align: center;
+}
+
+h2{
+    color: darkred;
+    text-align: center;
 }
 
 .about{

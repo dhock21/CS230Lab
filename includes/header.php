@@ -50,6 +50,9 @@ session_start();
             }
             else {
                 echo '<li class="nav-item">
+                <a class="nav-link" href="signup.php">Sign Up</a>    
+                 </li>
+                <li class="nav-item">
                 <a class="nav-link" href="login.php">Login</a>
                 </li>';
             }
@@ -58,7 +61,7 @@ session_start();
             <li class="nav-item active">
                 <a class="nav-link" href="../index.php">Home<span class="sr-only">(current)</span></a>
             </li>
-           
+
         </div>
     </nav>
 </header>
