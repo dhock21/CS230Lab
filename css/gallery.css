@@ -28,8 +28,8 @@ img {
 .card {
     border-radius: 20px;
     margin: 10px;
-    width: 20%;
-    max-width: 280px;
+    width: 22%;
+    max-width: 400px;
     height: auto;
     padding: 5px;
     background-color: lightslategrey;
@@ -45,4 +45,18 @@ img {
 a:hover {
     opacity: 70%;
     text-decoration-color: silver;
+}
+
+.bg-cover {
+    background-image: url("../images/mainbg1.jpg");
+    height:100vmax;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat; 
+}
+
+.form-group li a{
+    background-color: black;
+    border-radius: 10px;
 }

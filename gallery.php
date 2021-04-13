@@ -22,7 +22,12 @@ require 'includes/header.php';
             </a>
             </div>';
         }
-        ?>
+        ?>  
         </div>
+        <div class="form-group">
+                <li class="nav-item center-me">
+                        <a class="nav-link" href="admin.php">Go to Upload</a>
+                </li>
+            </div>
     </div>
 </main>

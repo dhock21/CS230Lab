@@ -9,8 +9,7 @@ require 'includes/header.php';
         <div class="about" style="width: 100%; max-height: 100px; font: center-me">
             <h1>About Us</h1>
             <p>This is a place for appreciating quality space and space-realted content. This is not for showing
-                picutres
-                of a cat playing a piano... unless that cat is in space.
+                pictures of a cat playing a piano... unless that cat is in space.
             </p>
         </div>
         <div class="row">
@@ -18,7 +17,7 @@ require 'includes/header.php';
                 <div class="card">
                     <img src="images/redoct.jpg">
                     <div class="container">
-                        <h2>President</h2>
+                        <h3>President</h3>
                         <p>Sean Connery</p>
                         <p>Email: RedOctober@c.net</p>
                     </div>
@@ -28,7 +27,7 @@ require 'includes/header.php';
                 <div class="card">
                     <img src="images/alecb.jpg">
                     <div class="container">
-                        <h2>Matey</h2>
+                        <h3>Matey</h3>
                         <p>Alec Baldwin</p>
                         <p>Email: StillNotABelieber@desk.gov</p>
                     </div>
@@ -38,7 +37,7 @@ require 'includes/header.php';
                 <div class="card">
                     <img src="images/timc.jpg">
                     <div class="container">
-                        <h2>T Man</h2>
+                        <h3>T Man</h3>
                         <p>Tim Curry</p>
                         <p>Email: RockyHorror@pic.show</p>
                     </div>
@@ -48,7 +47,7 @@ require 'includes/header.php';
                 <div class="card">
                     <img src="images/red.jpg">
                     <div class="container">
-                        <h2>Loser</h2>
+                        <h3>Loser</h3>
                         <p>Mother R</p>
                         <p>Email: CrazyIvan@oops.gov</p>
                     </div>

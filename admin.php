@@ -8,7 +8,8 @@ require 'includes/dbhandler.php';
         <link rel="stylesheet" href="css/profile.css">
         
         
-        <h1 class="text-center">Admin</h1>
+        <h1 class="text-center">Gallery Upload</h1>
+        <p class="text-center">AKA "admin" for some reason...</p>
         
         <script>
         function triggered() {
@@ -36,7 +37,7 @@ if(isset($_SESSION['uid'])){
                     <div class="form-group">
                         <img src="images/iss.jpg" alt="profile picture" onclick="triggered();" id="gallery-display">
 
-                        <input type="text" name="title"  class="form-control" placeholder="title">
+                        <input type="text" name="title"  class="form-control" placeholder="Title:" style="text-align: center;">
                         <input type="file" name="gallery-image" id="gallery-image" onchange="preview(this)"
                             class="form-control" style="display: none;">
                     </div>
