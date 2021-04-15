@@ -24,11 +24,11 @@ if(isset($_POST['prof-submit'])){
     }
 
     if(!in_array($ext, $allowed)){
-        header("Location: ..profile.php?error=InvalidType");
+        header("Location: ../profile.php?error=InvalidType");
         exit();
     }
     if($file_size > 4*MB){
-        header("Location: ..profile.php?error=FileSizeExceeded");
+        header("Location: ../profile.php?error=FileSizeExceeded");
         exit();
     }
     else{

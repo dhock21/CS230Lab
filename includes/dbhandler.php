@@ -1,8 +1,8 @@
 <?php
 
 $servename = "localhost";
-$DBuname = "phpmyadmin"; //root
-$DBPass = "cs230lab";
+$DBuname = "root"; //root
+$DBPass = "";
 $DBname = "cs230";
 
 $conn = mysqli_connect($servename, $DBuname, $DBPass, $DBname);
